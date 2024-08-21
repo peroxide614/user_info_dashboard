@@ -43,9 +43,9 @@ function App() {
             </div>
           </div>
           <div className="divider"></div>
-          <div>
-            <button>Log Out</button>
-          </div>
+          {/* <div className="bottom-fullwidth-button"> */}
+          <button className="bottom-button">Log Out</button>
+          {/* </div> */}
         </div>
       </div>
     </div>
