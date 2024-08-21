@@ -1,0 +1,17 @@
+.full-page {
+  padding: 5px;
+
+  .element-wrapper {
+    padding: 20px;
+
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .box {
+      background-color: grey;
+      padding: 20px;
+    }
+  }
+}
