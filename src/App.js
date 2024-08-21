@@ -30,16 +30,16 @@ function App() {
           <div className="data-line">
             <img src={phoneicon} className="icon-style"></img>
             <div className="data-line-wrapper">
-              <div className="data-line-info">Phone Number</div>
-              <div className="data-line-output">+971525450837</div>
+              <div className="data-line-info">Location</div>
+              <div className="data-line-output">Italy</div>
             </div>
           </div>
           <div className="divider"></div>
           <div className="data-line">
             <img src={mailicon} className="icon-style"></img>
             <div className="data-line-wrapper">
-              <div className="data-line-info">Email</div>
-              <div className="data-line-output">superadmin@sa.intech</div>
+              <div className="data-line-info">User Contact ID</div>
+              <div className="data-line-output">63456865</div>
             </div>
           </div>
           <div className="extended-divider"></div>
