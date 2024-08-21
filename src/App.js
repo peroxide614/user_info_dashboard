@@ -42,10 +42,8 @@ function App() {
               <div className="data-line-output">superadmin@sa.intech</div>
             </div>
           </div>
-          <div className="divider"></div>
-          {/* <div className="bottom-fullwidth-button"> */}
+          <div className="extended-divider"></div>
           <button className="bottom-button">Log Out</button>
-          {/* </div> */}
         </div>
       </div>
     </div>
