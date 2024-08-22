@@ -12,11 +12,12 @@
     .box {
       display: flex;
       flex-direction: column;
+      padding: 20px;
       margin-top: 15px;
+      /* margin-top to create blank space between  Personal Info text and box element. I could do it using flex-direction: column & gap but thought it's easier using margin-top*/
       gap: 15px;
       width: 400px;
       background-color: rgb(236, 236, 236);
-      padding: 20px;
 
       .data-line {
         display: flex;
@@ -46,7 +47,7 @@
         align-items: center;
         margin-left: -20px;
         margin-right: -20px;
-        width: 100% + 40px;
+        width: calc(100% + 40px);
         background-color: rgb(36, 36, 36);
         height: 1px;
       }
